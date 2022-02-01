@@ -1,0 +1,59 @@
+.menuSlide-entering {
+  transform: translateX(-100vw);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+.menuSlide-entered {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 500ms linear;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+.menuSlide-exiting {
+  transform: translateX(0);
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+.menuSlide-exited {
+  transform: translateX(-100vw);
+  opacity: 0;
+  transition: all 500ms linear;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+.modalAppear-entering {
+  opacity: 0;
+}
+
+.modalAppear-entered {
+  display: block;
+  opacity: 1;
+  transition: all 250ms ease-out;
+}
+
+.modalAppear-exited {
+  display: none;
+  opacity: 0;
+}
+
+.modalBoxAppear-entering {
+  transform: translateY(-32vw);
+  opacity: 0;
+}
+
+.modalBoxAppear-entered {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 500ms linear;
+}
