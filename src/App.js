@@ -8,13 +8,15 @@ import Starfield from './components/Starfield'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
+import Demos from './pages/Demos'
 
 const App = () => {
 
   const options = [
-    {text: 'Home', url: '/'},
-    {text: 'About Me', url: '/about'},
-    {text: 'Projects', url: '/projects'}
+    {text: 'Hello', url: '/'},
+    {text: 'My Skills', url: '/about'},
+    {text: 'Projects', url: '/projects'},
+    {text: 'Demos', url: '/demos'},
   ]
 
 
@@ -37,6 +39,9 @@ const App = () => {
       )} />
       <Route exact path='/projects' render={props => (
         <Projects/>
+      )} />
+      <Route exact path='/demos' render={props => (
+        <Demos/>
       )} />
     </Switch>
 

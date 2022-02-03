@@ -16,3 +16,8 @@ code {
   font-family: 'Josefin';
   src: local('Josefin'), url(./fonts/JosefinSlab-VariableFont_wght.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+}

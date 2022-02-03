@@ -20,7 +20,7 @@ const Home = () => {
     <div style={homeBox}>
       <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '2rem'}}>
         <div>
-          <h1>Projects</h1>
+          <h1>Demos</h1>
         </div>
         <img src='crocus.png' alt='a pixel art renering of a crocus flower'/>
       </div>
