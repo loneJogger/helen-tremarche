@@ -39,9 +39,8 @@ const Home = () => {
       explore. Thanks for taking a look!
       </p>
       <div className='popOut'>
-        <Link to={'/about'}>My Skills</Link>
-        <Link to={'/projects'}>Projects</Link>
         <Link to={'/demos'}>Demos</Link>
+        <Link to={'/projects'}>Projects</Link>
         <a href='HelenTremarcheResume2022.pdf' target='_blank'>My Resume</a>
       </div>
     </div>

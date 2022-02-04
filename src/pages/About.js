@@ -25,6 +25,8 @@ const About = () => {
         <img src='crocus.png' alt='a pixel art renering of a crocus flower'/>
       </div>
       <hr />
+      <div>
+      </div>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const Starfield = () => {
 
   const WIDTH =  size.width
   const HEIGHT =  size.height
-  const SPEED = 3
+  const SPEED = 1
   const SIZE = 3
 
   const [ stars, setStars ] = useState([])

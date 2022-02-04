@@ -63,7 +63,12 @@ const Menu = props => {
               </svg>
             </div>
             <div>
+              <>
               {generateOptions(props.options)}
+              <LinkBox>
+                <a href='HelenTremarcheResume2022.pdf' target='_blank'>My Resume</a>
+              </LinkBox>
+              </>
             </div>
           </MenuBox>
         </div>
