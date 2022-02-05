@@ -5,7 +5,7 @@ const Home = () => {
 
   const size = useWindowResize()
 
-  const box = {
+  const homeBox = {
     padding: '64px',
     margin: '64px',
     zIndex: '2',
@@ -17,14 +17,24 @@ const Home = () => {
     overflowY: 'scroll'
   }
 
+  const noBox = {
+    zIndex: '2',
+    position: 'relative',
+    padding: '64px',
+  }
+
   return (
-    <div style={box}>
+    <div style={size.width > 550 ? homeBox : noBox}>
       <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '2rem'}}>
         <div>
           <h1>Helen Tremarche</h1>
           <h2>A full stack web developer.</h2>
         </div>
-        <img src='crocus.png' alt='a pixel art renering of a crocus flower'/>
+        <img
+          style={size.width > 650 ? {paddingLeft: '16px'} : {maxWidth: '200px', paddingLeft: '16px', height: '100%'}}
+          src='crocus.png'
+          alt='a pixel art renering of a crocus flower'
+        />
       </div>
       <hr/>
       <p style={{fontFamily: 'Josefin', fontSize: '30px'}}>Hello!</p>
@@ -41,7 +51,7 @@ const Home = () => {
       <div className='popOut'>
         <Link to={'/demos'}>Demos</Link>
         <Link to={'/projects'}>Projects</Link>
-        <a href='HelenTremarcheResume2022.pdf' target='_blank'>My Resume</a>
+        <a href='HelenTremarcheResume2022.pdf' target='_blank'>Resume</a>
       </div>
     </div>
   )

@@ -3,10 +3,6 @@ import { Component } from 'react'
 import Player from './Player'
 
 const KEY = {
-  LEFT: 37,
-  RIGHT: 39,
-  UP: 38,
-  DOWN: 40,
   W: 87,
   A: 65,
   S: 83,
@@ -46,10 +42,10 @@ export default class World extends Component {
 
   handleKeyboard(value, e) {
     let keys = this.state.keys
-    if (e.keyCode === KEY.LEFT || e.keyCode === KEY.A) keys.left = value
-    if (e.keyCode === KEY.RIGHT || e.keyCode === KEY.D) keys.right = value
-    if (e.keyCode === KEY.DOWN || e.keyCode === KEY.S) keys.down = value
-    if (e.keyCode === KEY.UP || e.keyCode === KEY.W) keys.up = value
+    if (e.keyCode === KEY.A) keys.left = value
+    if (e.keyCode === KEY.D) keys.right = value
+    if (e.keyCode === KEY.S) keys.down = value
+    if (e.keyCode === KEY.W) keys.up = value
     this.setState({ keys: keys })
   }
 

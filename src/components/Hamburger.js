@@ -66,7 +66,7 @@ const Menu = props => {
               <>
               {generateOptions(props.options)}
               <LinkBox>
-                <a href='HelenTremarcheResume2022.pdf' target='_blank'>My Resume</a>
+                <a href='HelenTremarcheResume2022.pdf' target='_blank'>Resume</a>
               </LinkBox>
               </>
             </div>

@@ -18,13 +18,23 @@ const Demos = () => {
     overflowY: 'scroll'
   }
 
+  const noBox = {
+    zIndex: '2',
+    position: 'relative',
+    padding: '64px',
+  }
+
   return (
-    <div style={homeBox}>
+    <div style={size.width > 550 ? homeBox : noBox}>
       <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '2rem'}}>
         <div>
           <h1>Demos</h1>
         </div>
-        <img src='crocus.png' alt='a pixel art renering of a crocus flower'/>
+        <img
+          style={size.width > 650 ? {paddingLeft: '16px'} : {maxWidth: '200px', paddingLeft: '16px', height: '100%'}}
+          src='crocus.png'
+          alt='a pixel art renering of a crocus flower'
+        />
       </div>
       <hr />
       <h2>React.js Game Engine</h2>
@@ -36,7 +46,7 @@ const Demos = () => {
       and draw functions on the Canvas.
       </p>
       <p>
-      Use either W, A, S, D or the arrow keys to control the player sprite. (Move
+      Use W, A, S, D to control the player sprite. (Move
       up to walk into the frame.)</p>
       <World />
       <hr />
@@ -51,12 +61,6 @@ const Demos = () => {
       </p>
       <ParallaxDemo />
       <hr />
-      <h2>Responsive Filtering Card Deck</h2>
-      <p>
-      Something akin to the Netflix UI, but instead of showing carousels for each
-      section this displays all the options wrapped below and will shrink to fix
-      dependent on the width of the containing div. (requires Bootstrap)  
-      </p>
     </div>
   )
 }
