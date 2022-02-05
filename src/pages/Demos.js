@@ -31,7 +31,7 @@ const Demos = () => {
           <h1>Demos</h1>
         </div>
         <img
-          style={size.width > 650 ? {paddingLeft: '16px'} : {maxWidth: '200px', paddingLeft: '16px', height: '100%'}}
+          style={size.width > 650 ? {paddingLeft: '16px'} : {maxWidth: '150px', paddingLeft: '16px', height: '100%'}}
           src='crocus.png'
           alt='a pixel art renering of a crocus flower'
         />

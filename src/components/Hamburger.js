@@ -86,7 +86,7 @@ const Wrapper = styled.div`
 const MenuBox = styled.div`
   background: #eab4d5;
   color: #110307;
-  width: 448px;
+  width: 300px;
   padding: 8px;
 `
 
