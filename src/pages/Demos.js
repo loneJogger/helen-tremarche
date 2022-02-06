@@ -1,6 +1,7 @@
 import useWindowResize from '../hooks/useWindowResize'
 import World from '../components/game/World'
 import ParallaxDemo from '../components/parallax/ParallaxDemo'
+import SpotifyDemo from '../components/spotify/SpotifyDemo'
 
 const Demos = () => {
 
@@ -36,6 +37,15 @@ const Demos = () => {
           alt='a pixel art renering of a crocus flower'
         />
       </div>
+      <hr />
+      <h2>Spotify API</h2>
+      <p>
+      A simple integration of an exteral API, once you sign in using implict OAuth
+      your token is picked up and placed in localstorage so that you will be automatically
+      signed in on your return. With a valid sign in you can then search the Spotify
+      API for musical artists and see them listed below.
+      </p>
+      <SpotifyDemo />
       <hr />
       <h2>React.js Game Engine</h2>
       <p>

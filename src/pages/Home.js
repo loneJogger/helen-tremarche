@@ -42,16 +42,15 @@ const Home = () => {
       Welcome to my little corner of the internet, where I hope I can show
       you a sample of some of the cool and exciting things I can do in place like
       this. I've been doing this work for a few years now, building web apps and
-      tools to support my organization, as well as filling whatever miscelaneous
+      tools to support my organization, as well as filling whatever miscellaneous
       development needs pop up. I greatly enjoy the opportunity to push past the
-      expected, and add new tricks to my arsenal. I've included some more information
-      about my skills, some projects I've worked on, and a few live demos for you
-      explore. Thanks for taking a look!
+      expected, and add new tricks to my arsenal. I've included some projects I've
+      worked on and a few live demos for you to explore. Thanks for taking a look!
       </p>
       <div className='popOut'>
         <Link to={'/demos'}>Demos</Link>
         <Link to={'/projects'}>Projects</Link>
-        <a href='HelenTremarcheResume2022.pdf' target='_blank'>Resume</a>
+        <a href='HelenTremarcheResume2022.pdf' target='_blank' rel="noreferrer">Resume</a>
       </div>
     </div>
   )

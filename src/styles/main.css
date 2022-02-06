@@ -40,6 +40,42 @@ p {
   margin-top: 3rem;
 }
 
+input {
+  border: 1px solid #eab4d5;
+  border-radius: 4px;
+  background: #110307;
+  color: #eab4d5;
+  padding: 8px;
+  width: 75%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #eab4d5;
+  margin-top: 16px;
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: center;
+}
+
+thead {
+  border-bottom: 1px solid #eab4d5;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #110307;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #211317;
+}
+
+table a {
+  color: #eab4d5;
+}
+
 .popOut {
   padding: 8px;
   margin: 8px;
@@ -58,4 +94,23 @@ p {
   margin: 8px;
   font-size: 30px;
   font-weight: 500;
+}
+
+.spotifySignIn {
+  cursor: pointer;
+  padding: 8px;
+  margin: 2px;
+  font-family: 'Courier';
+  font-size: 12px;
+  background-color: #86284f;
+  color: #eab4d5;
+  border: 1px solid #eab4d5;
+  border-radius: 4px;
+  transition: 0.5s all ease-out;
+}
+
+.spotifySignIn:hover {
+  background-color: #110307;
+  border: 1px solid #86284f;
+  color: #86284f;
 }
