@@ -40,7 +40,7 @@ const Home = () => {
       <p style={{fontFamily: 'Josefin', fontSize: '30px'}}>Hello!</p>
       <p>
       Welcome to my little corner of the internet, where I hope I can show
-      you a sample of some of the cool and exciting things I can do in place like
+      you a sample of some of the cool and exciting things I can do in a place like
       this. I've been doing this work for a few years now, building web apps and
       tools to support my organization, as well as filling whatever miscellaneous
       development needs pop up. I greatly enjoy the opportunity to push past the

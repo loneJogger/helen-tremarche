@@ -40,7 +40,7 @@ const Demos = () => {
       <hr />
       <h2>Spotify API</h2>
       <p>
-      A simple integration of an exteral API, once you sign in using implict OAuth
+      A simple integration of an external API, once you sign in using implicit OAuth
       your token is picked up and placed in localstorage so that you will be automatically
       signed in on your return. With a valid sign in you can then search the Spotify
       API for musical artists and see them listed below.
@@ -52,7 +52,7 @@ const Demos = () => {
       A work in progress, but I've been trying to combine my two developer passions
       lately, and build some browser games. This is just the beginning of where I
       want this to end up, but I think it shows some clever implementation of React's
-      component class as game object while using mostly plain JS to handle the update
+      component class as a game object while using mostly plain JS to handle the update
       and draw functions on the Canvas.
       </p>
       <p>
